@@ -1,0 +1,189 @@
+p{
+	color:blue;
+	background: yellow;
+}
+
+p{
+	color:#005f9;
+	background: #4fa985;
+}
+
+*{
+	color:green;
+}
+
+#fundamentos{
+	color:orange;
+}
+
+.miclase{
+	color:pink;
+}
+
+a:link{
+	color:yellow;
+}
+
+a:visited{
+	color:olive;
+}
+
+legend:hover{
+	color: red;
+}
+
+legend:active{
+	color: blue;
+}
+
+legend:focus{
+	color: orange;
+}
+
+li:first-child{
+	background: yellow;
+}
+
+li:last-child{
+	background: red;
+}
+
+li:nth-child(2n){  /*2n para pares*/
+	background: orange;
+}
+
+li:nth-child(3n){
+	background: olive;
+}
+
+h1::before{
+	content: "Before";
+	background: orange;
+}
+
+h1::after{
+	content: "After";
+	background: orange;
+}
+
+p::first-letter{
+	font-size: 36px;
+	color: gold;
+}
+
+p::first-line{
+	color: crimson;
+}
+
+ul > li{  /*Combinar selectores*/
+	margin-left: 40px;
+}
+
+p + p{   /*Combinar selectores*/
+	background: yellow;
+}
+
+.colorrgb{
+	color: rgb(255,0,0);
+}
+
+.colorrgba{
+	color: rgba(255,0,0,.4);  /*El ultimo es la opacidad de 0 a 1*/
+}
+
+/*Otra forma es con el metodo HSL y HSLa y es en porcentajes (240,50%,52%,.4)*/
+
+html{
+	font-size: 20px;
+}
+
+.unidadrem{  /*unidades relativas en este caso 4 veces la original el tamaño de fuente*/
+	font-size: 4rem;
+	color: crimson;
+}
+
+.porcetajeOriginal{
+	font-size: 50px;
+}
+
+.porcentaje1{
+	font-size: 50%;
+}
+
+.porcentaje2{
+	font-size: 80%;
+}
+
+.parrafo1{
+	background: purple;
+	width: 360px;
+	height: 50px;
+}
+
+.parrafo2{
+	background: maroon;
+	width: 80%;
+	height: 50px;
+}
+
+.parrafo3{
+	background: chocolate;
+	font-size: 16px;
+	width: 20em;
+	height: 80px;
+}
+
+div{
+	border: 1px solid;
+	width: 100px;
+	height: 100px;
+	display:  inline-block;
+}
+
+.caja1{
+	background: yellow;
+	width: 400px;
+	height: 100px;
+	padding: 20px;
+	border: 20px solid blue;
+/*	padding-top: 40px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	padding-right: 40px; */ 
+	padding: 40px 20px;
+/*	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px; */
+	margin: -20px; /*o 20px 20px 20px 20px o 20px 20px*/ 
+	display: inline-block;  /*el inline-block no reconoce margenes alto y bajo nmenores de 0*/
+}
+
+.caja2{
+	background: tomato;
+	width: 40px;
+	height: 100px;
+	margin-top: 200px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	display: inline;
+	padding: 20px;
+	border-top: 10px solid red;
+	border-right: 15px dotted blue;
+	border-left: 15px double green;
+	border-bottom: 15px dashed yellow;
+}
+
+.caja3{
+	background: tomato;
+	width: 40px;
+	height: 100px;
+	margin-top: 200px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	display: inline;
+	padding: 20px;
+	border: 8px dotted rgb(255,0,0);
+}
