@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="css/loginStyle.css">
+</head>
+<body>
+	<form action="login.php" method="post"></form>
+		<fieldset>
+		<legend>Login</legend>
+			<p>Nombre: <input type="text" name="" value="Caetan" placeholder="Nombre" readonly></p>
+			<p>Apellidos: <input type="text" name="" placeholder="Apellidos" maxlength="5"></p>
+			<p>
+				<label for="email">Email:</label>
+				<input type="email" name="" id="email" placeholder="Email" autocomplete="off" autofocus required>
+			</p>
+			<p>
+				<label>
+					Contraseña:
+					<input type="password" name="" id="contrasena" placeholder="Contraseña">
+				</label>
+			</p>
+			<p>
+				<input type="submit" name="" value="Login">
+			</p>
+		</fieldset>
+</body>
+</html>

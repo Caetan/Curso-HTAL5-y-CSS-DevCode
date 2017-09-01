@@ -110,8 +110,16 @@
 			<li>Primer hermano</li>
 			<li>Segundo hermano</li>
 			<li>Tercero hermano</li>
-				<ol>Pequeño</ol>
-				<ol>Mayor</ol>
+				<ol start="-20">
+				<li>Pequeño</li>
+				<li>Más Pequeño</li>
+				<li>Enano</li>
+				</ol>
+				<ol reversed>
+				<li>Mayor</li>
+				<li value="11">Aún mayor</li>
+				<li>Superior</li>
+				</ol>
 			<li>Cuarto hermano</li>
 			<li>Quinto hermano</li>
 		</ul>
@@ -143,6 +151,36 @@
 		<div class="caja1">Caja 1</div>
 		<div class="caja2">Caja 2</div>
 		<div class="caja3">Caja 3</div>
+
+		<dl>
+			<dt>PHP</dt>
+			<dd>Lenguaje de script de proposito general y código abierto especialmente diseñado para el desarrollo web embebido en páginas HTML</dd>
+			<dt>Python</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</dd>
+		</dl>
+
+		<img src="https://drive.google.com/imagen.jpg" alt="Imagen" width="250" height="150">
+
+		<audio src="https://www.sonido.mp3" controls autoplay loop muted preload="metadata"></audio>
+
+		<source src="https://sonido.mp3" type="audio/mpeg">
+
+		<video width="100%" height="auto" controls loop preload="none" muted poster="https://www.imagen.jpg">
+			<source src="https://www.video.mp4" type="video/mp4">
+			Descarga este video en: <a href="https://www.video.mp4" download>Descargar</a>
+		</video>
+
+		<figure>
+			<figcaption>Leyenda de la imagen arriba</figcaption>
+			<img src="https://drive.google.com/imagen.jpg" alt="Imagen">
+			<figcaption>Leyenda de la imagen abajo</figcaption>
+		</figure>
+
 
 
 	</section>
